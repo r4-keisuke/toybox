@@ -104,3 +104,4 @@ alias cp='cp -i'
 alias mv='mv -i'
 export PATH=~/Library/Python/2.7/bin:/usr/local/bin:/usr/local/go/bin:$PATH
 export GOPATH=$HOME/workspace/go
+export PKG_CONFIG_PATH="/usr/local/opt/libffi/lib/pkgconfig"
