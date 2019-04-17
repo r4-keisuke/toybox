@@ -104,4 +104,8 @@ alias cp='cp -i'
 alias mv='mv -i'
 export PATH=~/Library/Python/2.7/bin:/usr/local/bin:/usr/local/go/bin:$PATH
 export GOPATH=$HOME/workspace/go
+export PATH=$PATH:$GOPATH/bin
 export PKG_CONFIG_PATH="/usr/local/opt/libffi/lib/pkgconfig"
+export PYENV_ROOT="$HOME/.pyenv"
+export PATH="$PYENV_ROOT/bin:$PATH"
+eval "$(pyenv init - --no-rehash)"
